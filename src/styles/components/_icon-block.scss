@@ -1,0 +1,25 @@
+.c--icon-block {
+  @apply .py-6;
+  @apply .px-4;
+  @apply .text-center;
+
+  .icon-block__icon {
+    @apply .inline-block;
+    @apply .mb-6;
+    @apply .w-12;
+    @apply .h-12;
+    @apply .bg-indigo-dark;
+    @apply .rounded-full;
+  }
+
+  .icon-block__heading {
+    @apply .mb-4;
+    @apply .text-lg;
+    @apply .text-grey-darkest;
+    @apply .uppercase;
+  }
+
+  p {
+    @apply .text-grey-dark;
+  }
+}

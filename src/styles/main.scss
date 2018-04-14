@@ -1,0 +1,34 @@
+/*
+ | Tailwind Preflight
+ */
+@tailwind preflight;
+
+/*
+ | Tailwind Components
+ */
+@tailwind components;
+
+/*
+ | Common Styles
+ */
+@import "common/global";
+
+/*
+ | Layouts
+ */
+@import "layouts/grid";
+
+/*
+ | Components
+ */
+@import "components/icon-block";
+
+/*
+ | Tailwind Utilities
+ */
+@tailwind utilities;
+
+/*
+ | Custom Utilities
+ */
+@import "common/utilities"

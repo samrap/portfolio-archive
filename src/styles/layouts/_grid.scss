@@ -1,0 +1,9 @@
+.row {
+  @apply .flex;
+  @apply .flex-wrap;
+  @apply .-mx-4;
+}
+
+.col {
+  @apply .px-4;
+}
