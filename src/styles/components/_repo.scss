@@ -1,0 +1,72 @@
+.c--repo {
+  @apply .row;
+  @apply .items-center;
+  @apply .py-8;
+
+  .repo__column {
+    @extend .col;
+    @apply .w-full;
+  }
+
+  .column__description {
+    @apply .mt-8;
+    @apply .text-blue-lighter;
+  }
+
+  .column__card {
+    @apply .inline-block;
+    @apply .w-full;
+    @apply .max-w-sm;
+    @apply .p-6;
+    @apply .text-indigo-lightest;
+    @apply .rounded;
+    @apply .border;
+    @apply .border-white;
+
+    transition: all 200ms ease;
+
+    &:hover {
+      @apply .border-blue-lighter;
+
+      .card__name {
+        @apply .text-blue-lighter;
+      }
+    }
+  }
+
+  .card__name {
+    @apply .text-lg;
+    @apply .text-white;
+    @apply .font-bold;
+
+    transition: all 200ms ease;
+  }
+
+  .card__description {
+    @apply .mt-2;
+    @apply .text-sm;
+  }
+
+  .card__meta {
+    @apply .mt-6;
+    @apply .text-xs;
+    @apply .text-left;
+  }
+
+  .meta__item {
+    @apply .inline-block;
+    @apply .mr-4;
+  }
+
+  @screen md {
+    @apply .py-10;
+
+    .repo__column {
+      @apply .w-1/2;
+    }
+
+    .column__description {
+      @apply .mt-0;
+    }
+  }
+}

@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,12 +10,12 @@
     <title>Sam Rapaport | Senior Developer @ Gigasavvy</title>
   </head>
   <body>
-    <header class="py-10">
-      <div class="container">
+    <header class="pb-10 md:pt-10">
+      <div class="mx-auto max-w-3xl pr-4 md:px-4">
         <div class="gradient-text-container">
-          <h1 class="gradient-text text-6xl uppercase leading-none">Sam <br />Rapaport</h1>
+          <h1 class="gradient-text font-black text-6xl sm:text-7xl md:text-8xl uppercase leading-none">Sam <br />Rapaport</h1>
         </div>
-        <div class="flex justify-end text-3xl font-bold text-right">
+        <div class="flex justify-end text-base md:text-3xl font-bold leading-tight text-right">
           senior developer, <br />gigasavvy
         </div>
       </div>
@@ -25,7 +24,7 @@
     <section class="py-14">
       <div class="container">
         <div class="flex justify-end">
-          <div class="w-1/2">
+          <div class="w-full md:w-1/2">
             <p class="text-lg leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -37,7 +36,7 @@
       </div>
     </section>
 
-    <section class="py-14 bg-skew-before">
+    <section class="py-10 sm:py-12 md:py-14 bg-skew-before">
       <div class="container">
         <header class="mx-auto max-w-md pt-12 text-center">
           <h2 class="mb-4 font-normal text-4xl">What I Specialize In</h2>
@@ -49,7 +48,7 @@
         </header>
 
         <div class="row justify-center pt-12">
-          <div class="col w-1/3">
+          <div class="col w-full sm:w-1/2 lg:w-1/3">
             <div class="c--icon-block">
               <div class="icon-block__icon"></div>
               <h3 class="icon-block__heading">MVC Architecture</h3>
@@ -58,7 +57,7 @@
               quis nostrud.</p>
             </div>
           </div>
-          <div class="col w-1/3">
+          <div class="col w-full sm:w-1/2 lg:w-1/3">
             <div class="c--icon-block">
               <div class="icon-block__icon"></div>
               <h3 class="icon-block__heading">MVC Architecture</h3>
@@ -67,7 +66,7 @@
               quis nostrud.</p>
             </div>
           </div>
-          <div class="col w-1/3">
+          <div class="col w-full sm:w-1/2 lg:w-1/3">
             <div class="c--icon-block">
               <div class="icon-block__icon"></div>
               <h3 class="icon-block__heading">MVC Architecture</h3>
@@ -76,7 +75,7 @@
               quis nostrud.</p>
             </div>
           </div>
-          <div class="col w-1/3">
+          <div class="col w-full sm:w-1/2 lg:w-1/3">
             <div class="c--icon-block">
               <div class="icon-block__icon"></div>
               <h3 class="icon-block__heading">MVC Architecture</h3>
@@ -85,7 +84,7 @@
               quis nostrud.</p>
             </div>
           </div>
-          <div class="col w-1/3">
+          <div class="col w-full sm:w-1/2 lg:w-1/3">
             <div class="c--icon-block">
               <div class="icon-block__icon"></div>
               <h3 class="icon-block__heading">MVC Architecture</h3>
@@ -98,9 +97,9 @@
       </div>
     </section>
 
-    <section class="py-14 bg-gradient text-indigo-lightest">
+    <section class="py-10 sm:py-12 md:py-14 bg-gradient text-indigo-lightest">
       <div class="container">
-        <header class="mx-auto max-w-md text-center">
+        <header class="mx-auto mb-8 max-w-md text-center">
           <h2 class="mb-4 font-normal text-4xl text-white">Open Source Contributions</h2>
           <p class="text-lg">
             In my free time I maintain several open source projects and contribute
@@ -108,61 +107,90 @@
           </p>
         </header>
 
-        <div class="row items-center pt-14">
-          <div class="col w-1/2">
-            <a href="#" class="inline-block w-full max-w-sm p-6 text-indigo-lightest rounded border border-white">
-              <div class="text-lg text-white font-bold hover:text-blue-lighter">
+        <div class="c--repo">
+          <div class="repo__column">
+            <a href="#" class="column__card">
+              <div class="card__name">
                 laravel/framework
               </div>
 
-              <div class="mt-6 text-xs text-left">
-                <div class="inline-block mr-4">
-                  PHP
-                </div>
-                <div class="inline-block mr-4">
-                  128
-                </div>
+              <div class="card__meta">
+                <div class="meta__item">PHP</div>
+                <div class="meta__item">128</div>
               </div>
             </a>
           </div>
-          <div class="col w-1/2">
-            <p class="text-blue-lighter">The Laravel framework is my go-to framework for rapid application
+
+          <div class="repo__column">
+            <p class="column__description">The Laravel framework is my go-to framework for rapid application
             development. Inspired heavily by Rails, Laravel is perfect for small
             to medium-sized applications and has an amazing community behind it.
             I actively contribute to discussions and have committed several fixes
-            and enhancements to the framework itself. </p>
+            and enhancements to the framework itself.</p>
           </div>
         </div>
 
-        <div class="row items-center py-14">
-          <div class="col w-1/2">
-            <p class="text-blue-lighter">ACF Fluent is a Composer package I built
+        <div class="c--repo md:flex-row-reverse">
+          <div class="repo__column">
+            <a href="#" class="column__card">
+              <div class="card__name">
+                acf-fluent
+              </div>
+
+              <div class="card__description">
+                A fluent interface for the Advanced Custom Fields WordPress plugin
+              </div>
+
+              <div class="card__meta">
+                <div class="meta__item">PHP</div>
+                <div class="meta__item">128</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="repo__column">
+            <p class="column__description">ACF Fluent is a Composer package I built
             and maintain that makes working with custom fields in WordPress more
             enjoyable. Built using TDD, the fluent interface allows for
             retrieving custom fields in a way similar to an Active Record ORM.
             It has over 2,500 installs and is my most successful open source
             project so far.</p>
           </div>
+        </div>
 
-          <div class="col w-1/2 text-right">
-            <a href="#" class="inline-block w-full max-w-sm p-6 text-left text-indigo-lightest rounded border border-white">
-              <div class="text-lg text-white font-bold hover:text-blue-lighter">
-                acf-fluent
-              </div>
+        <footer class="mt-8 text-center">
+          <a href="https://github.com/samrap" class="btn btn--white">
+            View More
+          </a>
+        </footer>
+      </div>
+    </section>
 
-              <p class="text-indigo-lightest">
-                A fluent interface for the Advanced Custom Fields WordPress plugin
-              </p>
+    <section class="py-12">
+      <div class="container">
+        <div class="row">
+          <div class="col w-full sm:w-1/3 lg:w-1/2">
+            <img src="https://placehold.it/500x500" class="max-w-full" alt="" />
+          </div>
+          <div class="col mt-8 w-full sm:mt-0 sm:w-2/3 lg:w-1/2">
+            <h2 class="mb-4 font-normal text-4xl">Get In Touch</h2>
 
-              <div class="mt-6 text-xs text-left">
-                <div class="inline-block mr-4">
-                  PHP
-                </div>
-                <div class="inline-block mr-4">
-                  128
-                </div>
-              </div>
-            </a>
+            <ul class="list-reset ml-2">
+              <li class="flex items-center w-full py-2">
+                <div class="mr-6 w-12 h-12 bg-grey-lighter rounded-full"></div>
+                <div class="">Shoot me an email</div>
+              </li>
+
+              <li class="flex items-center w-full py-2">
+                <div class="mr-6 w-12 h-12 bg-grey-lighter rounded-full"></div>
+                <div class="">Check my Medium articles</div>
+              </li>
+
+              <li class="flex items-center w-full py-2">
+                <div class="mr-6 w-12 h-12 bg-grey-lighter rounded-full"></div>
+                <div class="">Chat with me on Reddit</div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

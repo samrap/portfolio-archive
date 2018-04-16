@@ -1,0 +1,23 @@
+.btn {
+  @apply .inline-block;
+  @apply .py-3;
+  @apply .px-6;
+  @apply .font-bold;
+  @apply .text-sm;
+  @apply .tracking-wide;
+  @apply .uppercase;
+  @apply .rounded;
+  @apply .shadow;
+
+  min-width: 150px;
+  transition: all 200ms ease;
+
+  &--white {
+    @apply .text-indigo;
+    @apply .bg-white;
+  }
+
+  &:hover {
+    @apply .shadow-lg;
+  }
+}
