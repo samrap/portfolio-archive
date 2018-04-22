@@ -23,9 +23,14 @@ body {
 }
 
 a {
+  @apply .text-indigo-dark;
   @apply .no-underline;
 
   transition: all 250ms ease;
+
+  &:hover {
+    @apply .text-indigo;
+  }
 }
 
 @screen sm {

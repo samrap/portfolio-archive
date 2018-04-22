@@ -8,7 +8,10 @@
     @apply .mb-6;
     @apply .w-12;
     @apply .h-12;
-    @apply .bg-indigo-dark;
+    @apply .text-2xl;
+    @apply .text-indigo-lightest;
+    @apply .leading-loose;
+    @apply .bg-indigo-darker;
     @apply .rounded-full;
   }
 

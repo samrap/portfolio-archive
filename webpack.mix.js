@@ -18,4 +18,5 @@ mix
   .options({
     processCssUrls: false,
     postCss: [ tailwindcss('./tailwind.js') ],
-  });
+  })
+  .copy('src/images/**/*', 'public/images');
