@@ -1,10 +1,10 @@
 .gradient-text-container {
   display: inline-block;
   color: transparent;
-  background-clip: text !important;
   -webkit-background-clip: text !important;
-  text-fill-color: transparent;
+  background-clip: text !important;
   -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
   background: -webkit-linear-gradient(-134deg, #5661B3 0%, #0D0C15 100%);
   background: linear-gradient(-134deg, #5661B3 0%, #0D0C15 100%);
 }
