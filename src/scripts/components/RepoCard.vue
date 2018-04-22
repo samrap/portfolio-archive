@@ -52,7 +52,7 @@
     methods: {
       fetchData() {
         axios
-          .get(`https://api.github.com/repos/${this.name}?access_token=0b2a24372df1e8e2c2198d5fbf28ff419b7dc51c`)
+          .get(`https://api.github.com/repos/${this.name}`)
           .then(response => {
             this.data = response.data;
             this.loading = false;
