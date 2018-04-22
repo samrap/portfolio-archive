@@ -52,9 +52,9 @@
     methods: {
       fetchData() {
         axios
-          .get(`https://api.github.com/repos/${this.name}`)
+          .get(`https://api.github.com/search/repositories?q=${this.name}`)
           .then(response => {
-            this.data = response.data;
+            this.data = response.data.items[0];
             this.loading = false;
           })
           .catch(error => {
