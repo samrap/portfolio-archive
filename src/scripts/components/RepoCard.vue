@@ -23,7 +23,7 @@
           {{ data.language }}
         </div>
         <div class="meta__item">
-          {{ data.stargazers_count }}
+          <i class="fas fa-star"></i> {{ data.stargazers_count }}
         </div>
       </div>
     </a>
