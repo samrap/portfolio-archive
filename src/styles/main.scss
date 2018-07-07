@@ -11,7 +11,13 @@
 /*
  | Common Styles
  */
+@import "common/variables";
 @import "common/global";
+
+/*
+ | Import NPM dependencies
+ */
+ @import "~hamburgers/_sass/hamburgers/hamburgers.scss";
 
 /*
  | Layouts

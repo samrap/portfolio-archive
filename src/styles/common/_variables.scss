@@ -1,0 +1,16 @@
+/** Hamburgers */
+$hamburger-padding-x: 2px;
+$hamburger-padding-y: 2px;
+$hamburger-layer-width: 35px;
+$hamburger-layer-height: 3px;
+$hamburger-layer-spacing: 6px;
+$hamburger-layer-color: #ffffff;
+$hamburger-layer-border-radius: 0;
+$hamburger-hover-opacity: 0.85;
+$hamburger-hover-transition-duration: 0.15s;
+$hamburger-hover-transition-timing-function: linear;
+$hamburger-hover-filter: opacity(50%);
+$hamburger-types: (
+  minus,
+);
+

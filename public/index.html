@@ -22,6 +22,8 @@
   </head>
   <body>
     <main id="wrapper">
+      <nav-menu></nav-menu>
+
       <header class="pb-10 md:pt-8">
         <div class="mx-auto max-w-3xl pr-4 md:px-4">
           <div class="gradient-text-container">
@@ -190,7 +192,7 @@
                 <img
                   src="./images/sam-rapaport-portrait-alt.jpg"
                   srcset="./images/sam-rapaport-portrait-alt.jpg 1x ./images/sam-rapaport-portrait-alt@2x.jpg 2x"
-                  class="max-w-full"
+                  class="max-w-full rounded shadow"
                   alt="Me :)" />
               </div>
             </div>
@@ -198,6 +200,17 @@
               <h2 class="mb-4 font-normal text-4xl">Get In Touch</h2>
 
               <ul class="list-reset ml-2">
+                <li class="flex items-center w-full py-2">
+                  <div class="mr-6 w-12 h-12 bg-indigo-darker text-center text-2xl text-indigo-lightest leading-loose rounded-full">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <a
+                    href="https://linkedin.com/in/samrapdev"
+                    class="block">
+                    Connect with me
+                  </a>
+                </li>
+
                 <li class="flex items-center w-full py-2">
                   <div class="mr-6 w-12 h-12 bg-indigo-darker text-center text-2xl text-indigo-lightest leading-loose rounded-full">
                     <i class="far fa-envelope"></i>
@@ -218,18 +231,6 @@
                     target="_blank"
                     class="block">
                     Check my Medium posts
-                  </a>
-                </li>
-
-                <li class="flex items-center w-full py-2">
-                  <div class="mr-6 w-12 h-12 bg-indigo-darker text-center text-2xl text-indigo-lightest leading-loose rounded-full">
-                    <i class="fab fa-reddit-alien"></i>
-                  </div>
-                  <a
-                    href="https://www.reddit.com/user/samrapdev/"
-                    target="_blank"
-                    class="block">
-                    Join me on Reddit
                   </a>
                 </li>
               </ul>
