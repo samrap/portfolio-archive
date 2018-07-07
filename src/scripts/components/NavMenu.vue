@@ -1,16 +1,14 @@
 <template>
   <div>
-    <div class="fixed z-50 pin-t pin-r p-3 md:p-6 bg-black">
-      <button
-        id="menuToggle"
-        class="hamburger hamburger--minus"
-        :class="active ? 'is-active' : ''" type="button"
-        @click="toggle">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-    </div>
+    <button
+      id="menuToggle"
+      class="fixed z-50 pin-t pin-r p-3 md:p-6 bg-black hamburger hamburger--minus"
+      :class="active ? 'is-active' : ''" type="button"
+      @click="toggle">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
 
     <nav
       id="menu"
